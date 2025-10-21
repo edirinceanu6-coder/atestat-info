@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW DIVIZIA M</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0c0c0c;
+            color: #ffffff;
+        }
+
+        header { background-image: url('capgri.jpg');
+		 
+		 background-position: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            text-align: center;
+            background-color: #1a1a1a;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #333333;
+        }
+
+        main { background-image: url('spategri.jpg');
+		background-size: cover; 
+		 background-position: center;
+            padding: 20px;
+            text-align: center;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: auto;
+           
+        }
+
+        table td {
+            padding: 10px;
+            position: relative;
+        }
+
+        table td a img {
+            width: 370px;
+            height: 250px;
+            border-radius: 20px;
+            transition: transform 0.3s ease, filter 0.3s ease;
+        }
+
+        table td a:hover img {
+            transform: scale(1.07);
+            filter: blur(2px);
+        }
+
+        .overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0;
+            transition: opacity 0.1s ease;
+        }
+
+        table td a:hover .overlay {
+            opacity: 1;
+        }
+       
+
+        .overlay p {
+            font-size: 2.2em;  color: #FFFAF0;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #1a1a1a;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0.1px;
+       
+        }
+        
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 style="font-size: 2.5em;">BMW-EVOLUȚIA DIVIZIEI M</h1>
+    </header>
+
+    <nav>
+        <ul>
+             <li><a href="despre.html">DESPRE</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <table>
+            <tr>
+                <td>
+                    <a href="M1_1979.html">
+                        <img src="19791.jpg" alt="Imagine 1">
+                        <div class="overlay">
+                            <p>M1-1979</p>
+                        </div>
+                    </a>
+                </td>
+               <td>
+                    <a href="m535i_1980.html">
+                        <img src="19801.jpg" alt="Imagine 1">
+                        <div class="overlay">
+                            <p>M535i-1980</p>
+                        </div>
+                    </a>
+                </td>
+		<td>
+                    <a href="m2.html"><img src="poza1990.jpg" alt="Imagine 1">
+                        <div class="overlay">
+                            <p>M3-1990</p>
+                        </div>
+                    </a>
+                </td>
+            </tr>
+             <tr>
+                <td>
+                    <a href="m3 sedann 1991.html">
+                        <img src="19951.jpg" alt="Imagine 1">
+                        <div class="overlay">
+                            <p>M3-SEDAN-1995</p>
+                        </div>
+                    </a>
+                </td>
+               <td>
+                    <a href="bmw m5 2001.html">
+                        <img src="20051.jpg" alt="Imagine 1">
+                        <div class="overlay">
+                            <p>M5-2005</p>
+                        </div>
+                    </a>
+                </td>
+		<td>
+                    <a href="M3 2011.html"><img src="20111.jpg" alt="Imagine 1">
+                        <div class="overlay">
+                            <p>M3-2011</p>
+                        </div>
+                    </a>
+                </td>
+            </tr>
+             <tr>
+                <td>
+                    <a href="bmw m6 2013.html">
+                        <img src="20131.jpg" alt="Imagine 1">
+                        <div class="overlay">
+                            <p>M6-COUPE-2013</p>
+                        </div>
+                    </a>
+                </td>
+               <td>
+                    <a href="bmw m8 2020.html">
+                        <img src="20201.jpg" alt="Imagine 1">
+                        <div class="overlay">
+                            <p>M8-2020</p>
+                        </div>
+                    </a>
+                </td>
+		<td>
+                    <a href="bm2m42025.html"><img src="20251.jpg" alt="Imagine 1">
+                        <div class="overlay">
+                            <p>M4-2025</p>
+                        </div>
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </main>
+
+    <footer>
+        <p>Rinceanu Eduard Marian-2026</p>
+    </footer>
+
+</body>
+</html>
